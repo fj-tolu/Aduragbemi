@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Heart } from 'lucide-react';
-import { GoogleGenAI, Modality } from '@google/genai';
 
 
 const LETTER_TEXT = `Dearest Aduragbemi,

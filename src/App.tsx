@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Heart } from 'lucide-react';
 import { GoogleGenAI, Modality } from '@google/genai';
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const LETTER_TEXT = `Dearest Aduragbemi,
 Happy Birthday.
